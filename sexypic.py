@@ -7,11 +7,6 @@ import time
 
 # http://www.ninihen.com/
 
-# 偷拍自拍
-# http://www.ninihen.com/art/9.html
-# http://www.ninihen.com/art/9-131.html
-
-
 url_all = []
 url_all_1 = []
 img_src = []
@@ -28,16 +23,6 @@ dif_url = ['http://www.ninihen.com/art/9-', 'http://www.ninihen.com/art/10-',
 
 pattern1 = 'div.k_list-1a > div.k_list-txt > ul > li > a'
 pattern2 = 'div.content-img > p > img[src]'
-
-# url1 = 'http://www.27270.com/ent/meinvtupian/list_11_1.html'
-# url2 = 'http://www.27270.com/ent/meinvtupian/list_11_83.html'
-# div#imgList > ul > li > a > img
-# body > div.w960.yh > div.NewPages > ul > li:nth-child(13) > a
-# body > div.warp > div.imgPage > ul > li:nth-child(13) > a
-# body > div.warp > div.imgPage > ul > li:nth-child(13) > a
-# div.k_list-1a > div.k_list-txt > ul > li > a
-# div.content-img > p > img
-
 
 
 def saveImage( imgUrl,imgName ="default.jpg" ):
